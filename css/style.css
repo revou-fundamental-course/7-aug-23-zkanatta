@@ -1,0 +1,86 @@
+h1 {
+    background-color: #ff914d;
+    color: #000;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+}
+
+h3 {
+    color: coral;
+    text-align: center;
+}
+
+.gambars {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.segi3-input {
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: #ff914d;
+    text-align: center;
+    text-justify: distribute;
+    -webkit-text-fill-color: #000;
+    width: 200px; 
+    height: 50px;
+
+    
+}
+
+.hitungbtn {
+    display: flex;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color: #ff914d;
+    text-align: center;
+    -webkit-text-fill-color: #000;
+    width: 250px;
+    height: 50px;
+}
+
+.balik {
+    border-radius: 10px;
+    background-color: #ff914d;
+    -webkit-text-fill-color: #000;
+    width: 200px; 
+    height: 25px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.Hasil {
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    width: auto;
+    border-radius: 5px;
+    border: none
+    
+}
+
+.textb{
+    display: flex;
+    margin: auto;
+    width: auto;
+    padding: 14px;
+    font-size: 18px;
+    border: 10px;
+    border-color: #ff914d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }

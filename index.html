@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="js/script.js"> </script>
+    
+    <title>Hitung Bangun</title>
+    
+</head>
+<body>
+    <header>
+    <div class="gambars">
+    </div>
+        <img src="Pic/head.png" width="720px" class="gambars">
+ 
+        <h1> S E G I T I G A </h1>
+        <br>
+        <img src="Pic/segi3-tengah.png" width="360px" class="gambars">
+        <br>
+        <img src="Pic/legend.png" width="360px" class="gambars">
+        <br>
+        <img src="Pic/rumus.png" width="150px" class="gambars" id="rumuss">
+        <h2> Keliling = alas(a) + tinggi(b) + sisi miring(c) </h2>
+        <h2> Luas = 1/2 x alas(a) x tinggi(b)</h2>
+        <br>
+    <h1>Yuk masukkan angkanya!</h1>
+ 
+    <div class="textb"> 
+    <label class="textb"> Alas Segitiga : </label>
+    <input class="textb" type="number" id="segi3a" name="segi3-a" placeholder="masukkan nilai a">
+    <br>
+    <label class="textb"> Tinggi Segitiga : </label>
+    <input class="textb" type="number" id="segi3b" name="segi3-b" placeholder="masukkan nilai b">
+    <br>
+    <label class="textb"> Sisi Miring Segitiga : </label>
+    <input class="textb" type="number" id="segi3c" name="segi3-c" placeholder="masukkan nilai c">
+    </div>
+ 
+    <br> 
+    
+    <div class="hitungbtn">
+    <button class="hitungbtn" id="hitung" onclick="hitungX()">Hitung</button>
+    <br>
+    <button class="hitungbtn" id="balik" onclick="balik()">Reset</button>
+    <br>
+    </div>
+
+    <br>
+    
+    <div class="Hasil">
+    <label class="Hasil"> Keliling = </label>
+    <input class="Hasil" id="KelH" type="number" readonly="true">
+    <label class="Hasil" id="Kelcm">cm</label>
+    <label class="Hasil" id="space">  |  </label>
+    <br>
+    <label class="Hasil"> Luas = </label>
+    <input class="Hasil" id="LuasH" type="number" readonly="true">
+    <label class="Hasil" id="Luascm">cm</label>
+    </div>
+
+    <br>
+
+    <h1> - - </h1>
+</header> 
+</body>
+</html>
